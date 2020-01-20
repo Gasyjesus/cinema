@@ -1,4 +1,4 @@
-package test.cinema.data;
+package cinema;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -66,8 +66,8 @@ class TestMovieMoi {
 		//add directors
 	    PersonMoi tp = new PersonMoi("Todd Phililips");
 		movie.setDirector(tp);;
-		System.out.println(movie + "réalisé par " + movie.getDirector());
-		System.out.println(movie.getTitre() + " réalisé par "
+		System.out.println(movie + "rï¿½alisï¿½ par " + movie.getDirector());
+		System.out.println(movie.getTitre() + " rï¿½alisï¿½ par "
 						+ movie.getDirector().getName());
 		//Clint EastWood
 		PersonMoi clint = new PersonMoi("Clint Eastwood", LocalDate.of(1930, 5, 31));
@@ -82,8 +82,8 @@ class TestMovieMoi {
 	void testEquals() {
 		MovieMoi movieChaosI = new MovieMoi("Chaos", 2005);
 		MovieMoi movieChaosII = new MovieMoi("Chaos", 2005);
-		System.out.println(movieChaosI == movieChaosII);         // retourne false parceque ce ne sont pas les mêmes objets 
-		System.out.println(movieChaosI.equals(movieChaosII));    // retourne true parceque contient les mêmes données 
+		System.out.println(movieChaosI == movieChaosII);         // retourne false parceque ce ne sont pas les mï¿½mes objets 
+		System.out.println(movieChaosI.equals(movieChaosII));    // retourne true parceque contient les mï¿½mes donnï¿½es 
 	}
 	
 	

@@ -1,4 +1,4 @@
-package test.cinema.data;
+package cinema;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -30,7 +30,7 @@ class TestMap {
 		
 		for(var year: nbFilmsParAnnee.values())
 		{
-			System.out.println("° nb de films : " + year);
+			System.out.println("ï¿½ nb de films : " + year);
 		}
 		
 		

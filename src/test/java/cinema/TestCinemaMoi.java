@@ -1,4 +1,4 @@
-package test.cinema.data;
+package cinema;
 
 import static org.junit.jupiter.api.Assertions.*;
 
